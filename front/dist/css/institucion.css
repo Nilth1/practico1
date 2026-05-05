@@ -1,0 +1,146 @@
+/* SECCION 1 */
+body{font-family:'Arial',sans-serif;background-color:#000000;color:#fff;overflow-x:hidden;}
+.head{display:flex;justify-content:space-between;align-items:center;padding:15px 5%;background-color:#000000;border-bottom:1px solid #333;}
+.head img{height:45px;}
+.head-links a{color:#fff;text-decoration:none;margin-left:20px;font-size:15px;font-weight:bold;}
+footer{background-color:#0a0a0a;padding:60px 5%;display:flex;align-items:center;border-top:1px solid #222;}
+.footer-logo{width:30%;}
+.footer-logo img{width:140px;border-radius:12px;margin-left:20px;}
+.footer-links{width:70%;display:flex;justify-content:space-around;}
+.footer-links .columna{display:flex;flex-direction:column;gap:15px;}
+.footer-links a{color:#777;text-decoration:none;} 
+
+/* Eso fue lo que hizo isa por eso esta tan desordenado, lo que sigue es lo que hice yo */
+
+.seccion1 {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 60vh;
+}
+
+.sec1-img {
+    width: 50%;
+    overflow: hidden;
+}
+
+.sec1-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec1-btns {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.btn-top {
+    width: 100%;
+    padding: 5% 0;
+    background: #ff5500;
+    color: #fff;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.btn-top:hover {
+    background: #cc4400;
+}
+
+.btns-bottom {
+    display: flex;
+    gap: 5%;
+    flex: 1;
+}
+
+.btn-bottom {
+    width: 50%;
+    background: #111;
+    border: 1px solid #333;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-bottom:hover {
+    background: #ff5500;
+}
+
+/* FRANJA */
+.franja {
+    width: 100%;
+    background: #111;
+    border-top: 2px solid #ff5500;
+    border-bottom: 2px solid #ff5500;
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.franja button {
+    width: 40%;
+    padding: 2% 0;
+    background: #ff5500;
+    color: #fff;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.franja button:hover {
+    background: #cc4400;
+}
+
+/* BIOGRAFIA */
+.bio {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    gap: 5%;
+}
+
+.bio-img {
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid #ff5500;
+    overflow: hidden;
+}
+
+.bio-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bio-text {
+    width: 60%;
+}
+
+.bio-text h2 {
+    font-size: 2.5vw;
+    color: #ff5500;
+    margin-bottom: 3%;
+}
+
+.bio-text p {
+    font-size: 1vw;
+    color: #aaa;
+    line-height: 1.8;
+}
+
+.bio-text span {
+    color: #fff;
+    font-weight: bold;
+}
